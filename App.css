@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+html, body{
+  height:100%;
+  font-family: headlandone;
+  margin:0 auto;
+}
+
+.container{
+  display:flex;
+}
+
+.image{
+  border-radius: 10px;
+  max-width: 500px;
+  max-height: 100%;
+  display: block;
+  margin: 10px;
+}
+
+.imagebox{
+  height: 500px;
+  width: 550px;
+}
+
+.textbox{
+  padding:20px;
+  border: 5px;
+  border-color: #9CB2BA;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 10px;
+  flex: 1 1;
+  height: 250px;
+
+}
+
+.column{
+  flex-direction:column;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.center{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer{
+  background-color: #FFFFFF;
+  color: #aec6ef;
+  padding:20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+nav a:hover{
+  background-color:#aec6ef;
+  color: white;
+  transition:2s;
+}
+
+.links{
+  font-size: 70px;
+}
+
+.heading{
+  background-image: url("https://images.template.net/115475/free-pastel-blue-grid-background-qajj5.jpeg");
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title{
+    font-family: Audrey, "30 san serif";
+    color: #1f3053;
+    text-shadow: -5px -5px white;
+    font-size: 150px;
+}
+
+.text{
+  font-family: Audrey, "30 san serif";
+  color: #1f3053;
+}
+

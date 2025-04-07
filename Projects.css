@@ -1,0 +1,19 @@
+#projects .panel{
+  flex:1;
+  margin:10px;
+  padding:10px;
+  border:1px solid gray;
+  box-shadow:2px 2px 2px black;
+}
+#projects img{
+  max-height:400px;
+}
+
+.center{
+  justify-content:center;
+  align-items:center;
+}
+.blue{
+  background-color:cornflowerblue;
+  color:white;
+}

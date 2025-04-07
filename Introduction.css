@@ -1,0 +1,23 @@
+.panel{
+  padding:10px;
+/*  border:1px solid gray;*/
+  text-align:center;
+}
+.panel p{
+  font-size:'2em';
+}
+#me{
+  width:80%;
+  max-width:300px;
+  border-radius:10px;
+  box-shadow:2px 2px 2px black;
+}
+
+.para{
+  font-size: 1vw; 
+  text-align: left;
+}
+
+.textsize{
+  font-size: 1vw;
+}
